@@ -1,0 +1,22 @@
+[editor]
+line-number = "relative"
+mouse = true
+middle-click-paste = true
+scrolloff = 10
+cursorline = true
+bufferline = "multiple"
+
+[editor.lsp]
+display-messages = true
+display-inlay-hints = true
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.auto-pairs]
+"<" = ">"
+
+[editor.indent-guides]
+render = true
